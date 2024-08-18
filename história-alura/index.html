@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>A Jornada de Lucas</title>
+</head>
+<body>
+ 
+ <h1>bem vindo ao Astrogildo</h1>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Lucas 🧑 está começando um novo ano escolar. Ele quer fazer parte do time de vôlei 🏐, conquistar o coração de Lara 👧 e se destacar nas Olimpíadas de Matemática 📚, sob a orientação da Professora Jaque 👩🏾. Por onde Lucas deve começar?</p>
+            <button class="btn-proximo" data-proximo="1">Fazer novos amigos</button>
+            <button class="btn-proximo" data-proximo="2">Concentrar-se nos estudos</button>
+            <button class="btn-proximo" data-proximo="3">Procurar a técnica Vanessa 👩‍🦰</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Lucas 🧑 decide fazer novos amigos. Ele se aproxima de um grupo de alunos no intervalo. Durante a conversa, alguém menciona que Lara 👧 gosta de meninos que são inteligentes. O que Lucas deve fazer?</p>
+            <button class="btn-proximo" data-proximo="4">Falar sobre seu interesse em matemática</button>
+            <button class="btn-proximo" data-proximo="5">Mostrar interesse em esportes</button>
+            <button class="btn-proximo" data-proximo="6">Tentar impressionar Lara com uma piada</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Lucas 🧑 decide focar nos estudos desde o início. Ele passa horas na biblioteca 📚, onde conhece a Professora Jaque 👩🏾. Ela percebe o potencial de Lucas e oferece orientá-lo para as Olimpíadas de Matemática. Como Lucas deve responder?</p>
+            <button class="btn-proximo" data-proximo="7">Aceitar a orientação</button>
+            <button class="btn-proximo" data-proximo="8">Recusar e focar no vôlei</button>
+            <button class="btn-proximo" data-proximo="9">Perguntar como equilibrar estudos e esportes</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Lucas 🧑 procura a técnica Vanessa 👩‍🦰 no ginásio. Ela diz que o time de vôlei precisa de jogadores dedicados e que haverá um treino no final do dia. Lucas percebe que o treino coincide com a reunião do clube de matemática. O que ele deve fazer?</p>
+            <button class="btn-proximo" data-proximo="10">Ir ao treino de vôlei</button>
+            <button class="btn-proximo" data-proximo="11">Participar da reunião do clube de matemática</button>
+            <button class="btn-proximo" data-proximo="12">Tentar participar dos dois</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Lucas 🧑 fala sobre seu interesse em matemática, o que atrai a atenção de Lara 👧. Ela se aproxima e eles começam a conversar sobre estudos. Isso cria uma conexão entre os dois. Mais tarde, Lucas é convidado a participar de um projeto de estudo. O que ele deve fazer?</p>
+            <button class="btn-proximo" data-proximo="13">Aceitar o convite</button>
+            <button class="btn-proximo" data-proximo="14">Focar no vôlei e recusar</button>
+            <button class="btn-proximo" data-proximo="15">Sugerir um encontro casual fora da escola</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Lucas 🧑 fala sobre seu interesse em esportes, o que agrada o grupo. Eles o convidam para um treino de vôlei 🏐 depois da escola. Durante o treino, Lucas percebe que sua habilidade é mediana e que precisará se esforçar muito para se destacar. O que ele deve fazer?</p>
+            <button class="btn-proximo" data-proximo="16">Pedir conselhos à técnica Vanessa 👩‍🦰</button>
+            <button class="btn-proximo" data-proximo="17">Se inscrever em aulas particulares de vôlei</button>
+            <button class="btn-proximo" data-proximo="18">Dividir seu tempo entre estudos e treino</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Lucas 🧑 tenta impressionar Lara 👧 com uma piada, mas ela não ri. No entanto, ele percebe que a técnica Vanessa 👩‍🦰 estava ouvindo e ela gosta do humor de Lucas. Ela o convida para assistir a um jogo importante no final de semana. O que ele deve fazer?</p>
+            <button class="btn-proximo" data-proximo="19">Aceitar o convite e assistir ao jogo</button>
+            <button class="btn-proximo" data-proximo="20">Recusar e focar nos estudos</button>
+            <button class="btn-proximo" data-proximo="21">Convidar Lara para ir junto</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Lucas 🧑 aceita a orientação da Professora Jaque 👩🏾 e começa a se destacar em matemática 📚. Durante as sessões de estudo, Lara 👧 se junta ao grupo, mas Lucas nota que está perdendo tempo para treinar vôlei. O que ele deve priorizar?</p>
+            <button class="btn-proximo" data-proximo="22">Dedicar mais tempo à matemática</button>
+            <button class="btn-proximo" data-proximo="23">Equilibrar estudo e treino</button>
+            <button class="btn-proximo" data-proximo="24">Focar totalmente no vôlei</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Lucas 🧑 recusa a orientação da Professora Jaque 👩🏾 para focar no vôlei 🏐. Ele se dedica intensamente aos treinos, mas começa a perder contato com Lara 👧, que se envolve mais em projetos acadêmicos. Como Lucas deve reagir?</p>
+            <button class="btn-proximo" data-proximo="25">Tentar reconectar com Lara</button>
+            <button class="btn-proximo" data-proximo="26">Dobrar seus esforços no vôlei</button>
+            <button class="btn-proximo" data-proximo="27">Considerar retomar os estudos</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Lucas 🧑 pergunta à Professora Jaque 👩🏾 como equilibrar estudos e esportes. Ela sugere que ele organize seu tempo e o ajuda a criar um plano. Lucas começa a seguir esse plano, mas percebe que está ficando muito cansado. O que ele deve fazer?</p>
+            <button class="btn-proximo" data-proximo="28">Continuar seguindo o plano</button>
+            <button class="btn-proximo" data-proximo="29">Ajustar o plano para focar mais nos estudos</button>
+            <button class="btn-proximo" data-proximo="30">Focar mais nos treinos de vôlei</button>
+        </div>
+
+
+        <div class="passo" id="passo-10">
+            <p>Lucas 🧑 decide ir ao treino de vôlei. Ele impressiona a técnica Vanessa 👩‍🦰 com sua dedicação, mas acaba perdendo a oportunidade de participar da reunião do clube de matemática 📚. No entanto, ele conhece Lara 👧 no treino e eles começam a se aproximar. Mais tarde, Lara o convida para um encontro. O que ele deve fazer?</p>
+            <button class="btn-proximo" data-proximo="31">Aceitar o convite de Lara</button>
+            <button class="btn-proximo" data-proximo="32">Focar no treino e recusar</button>
+            <button class="btn-proximo" data-proximo="33">Tentar equilibrar o encontro e o treino</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Lucas 🧑 decide participar da reunião do clube de matemática 📚. Ele faz novas amizades e se destaca em um projeto. No entanto, ele perde a oportunidade de ir ao treino de vôlei 🏐. Lara 👧 também está na reunião e se impressiona com sua dedicação. O que Lucas deve fazer agora?</p>
+            <button class="btn-proximo" data-proximo="34">Convidar Lara para um estudo em grupo</button>
+            <button class="btn-proximo" data-proximo="35">Focar apenas em matemática</button>
+            <button class="btn-proximo" data-proximo="36">Tentar marcar um encontro com Lara fora da escola</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Lucas 🧑 tenta participar dos dois eventos, mas se sente sobrecarregado. Ele consegue ir ao treino, mas sua performance é afetada. Ao mesmo tempo, ele participa da reunião do clube de matemática, mas não consegue se destacar tanto quanto gostaria. Como ele deve lidar com isso?</p>
+            <button class="btn-proximo" data-proximo="37">Concentrar-se em um dos dois</button>
+            <button class="btn-proximo" data-proximo="38">Pedir ajuda para gerenciar seu tempo</button>
+            <button class="btn-proximo" data-proximo="39">Desistir de uma das atividades</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>Lucas 🧑 aceita o convite para o projeto de estudo com Lara 👧. Eles trabalham bem juntos e Lara começa a se interessar mais por Lucas. No entanto, Lucas também percebe que precisa dedicar mais tempo aos treinos de vôlei. O que ele deve fazer?</p>
+            <button class="btn-proximo" data-proximo="40">Focar em equilibrar estudo e treino</button>
+            <button class="btn-proximo" data-proximo="41">Priorizar o projeto de estudo</button>
+            <button class="btn-proximo" data-proximo="42">Tentar impressionar Lara em outro contexto</button>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <p>Lucas 🧑 decide recusar o convite para o projeto de estudo e foca em treinar para o vôlei 🏐. Ele melhora bastante e se destaca na equipe, mas Lara 👧 não o vê muito devido à sua ausência. O que ele deve fazer para tentar reconquistar Lara?</p>
+            <button class="btn-proximo" data-proximo="43">Organizar um encontro para conversarem</button>
+            <button class="btn-proximo" data-proximo="44">Tentar mostrar seu progresso no vôlei para ela</button>
+            <button class="btn-proximo" data-proximo="45">Focar em outro aspecto da vida escolar</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <p>Lucas 🧑 decide tentar impressionar Lara 👧 com uma piada. No entanto, Lara não ri, e Lucas percebe que ela está mais interessada em tópicos acadêmicos. Ele decide se inscrever para um desafio de matemática 📚 para impressioná-la. O que ele deve fazer agora?</p>
+            <button class="btn-proximo" data-proximo="46">Participar do desafio de matemática</button>
+            <button class="btn-proximo" data-proximo="47">Focar no treinamento de vôlei</button>
+            <button class="btn-proximo" data-proximo="48">Convidar Lara para um evento fora da escola</button>
+        </div>
+
+        <div class="passo" id="passo-16">
+            <p>Lucas 🧑 pede conselhos à técnica Vanessa 👩‍🦰. Ela o ajuda a melhorar sua técnica e ele se destaca no time de vôlei. No entanto, ele perde algumas oportunidades de socializar com Lara 👧. Como ele deve lidar com isso?</p>
+            <button class="btn-proximo" data-proximo="49">Focar em reconectar com Lara</button>
+            <button class="btn-proximo" data-proximo="50">Concentrar-se em suas habilidades de vôlei</button>
+            <button class="btn-proximo" data-proximo="51">Tentar equilibrar os dois</button>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <p>Lucas 🧑 se inscreve em aulas particulares de vôlei 🏐. Sua habilidade melhora e ele se destaca na equipe. No entanto, ele sente falta dos momentos com Lara 👧. Como ele deve proceder?</p>
+            <button class="btn-proximo" data-proximo="52">Tentar retomar o contato com Lara</button>
+            <button class="btn-proximo" data-proximo="53">Focar completamente no vôlei</button>
+            <button class="btn-proximo" data-proximo="54">Considerar fazer uma pausa nas aulas de vôlei</button>
+        </div>
+
+        <div class="passo" id="passo-18">
+            <p>Lucas 🧑 decide dividir seu tempo entre estudos e treino. Ele consegue manter um bom equilíbrio, mas começa a sentir-se cansado. Durante uma competição de vôlei 🏐, ele tem um desempenho impressionante, mas perde um pouco de desempenho nas Olimpíadas de Matemática 📚. O que ele deve fazer?</p>
+            <button class="btn-proximo" data-proximo="55">Ajustar seu plano de estudos e treino</button>
+            <button class="btn-proximo" data-proximo="56">Focar em um dos dois</button>
+            <button class="btn-proximo" data-proximo="57">Pedir ajuda para gerenciar o tempo</button>
+        </div>
+
+        <div class="passo" id="passo-19">
+            <p>Lucas 🧑 aceita o convite da técnica Vanessa 👩‍🦰 e vai ao jogo. Ele se destaca e impressiona a técnica, o que ajuda no seu desempenho no vôlei 🏐. Lara 👧 também está no jogo e nota a dedicação de Lucas. Ela o parabeniza. Como Lucas deve reagir?</p>
+            <button class="btn-proximo" data-proximo="58">Convidar Lara para um encontro</button>
+            <button class="btn-proximo" data-proximo="59">Agradecer a Lara e focar em vôlei</button>
+            <button class="btn-proximo" data-proximo="60">Tentar equilibrar o relacionamento e os treinos</button>
+        </div>
+
+        <div class="passo" id="passo-20">
+            <p>Lucas 🧑 recusa o convite e foca nos estudos 📚. Ele melhora seu desempenho acadêmico e impressiona a Professora Jaque 👩🏾. No entanto, Lara 👧 fica desapontada. O que Lucas deve fazer?</p>
+            <button class="btn-proximo" data-proximo="61">Tentar reconectar com Lara</button>
+            <button class="btn-proximo" data-proximo="62">Focar apenas nos estudos</button>
+            <button class="btn-proximo" data-proximo="63">Organizar um evento para socializar mais</button>
+        </div>
+
+        <div class="passo" id="passo-21">
+            <p>Lucas 🧑 convida Lara 👧 para ir junto ao jogo. Ela fica feliz com o convite e eles passam um bom tempo juntos. Durante o evento, Lara se impressiona com a habilidade de Lucas. O que ele deve fazer?</p>
+            <button class="btn-proximo" data-proximo="64">Aproveitar o momento e tentar aprofundar o relacionamento</button>
+            <button class="btn-proximo" data-proximo="65">Focar no desempenho no jogo</button>
+            <button class="btn-proximo" data-proximo="66">Tentar equilibrar o tempo com Lara e o treino</button>
+        </div>
+
+        <div class="passo" id="passo-22">
+            <p>Lucas 🧑 decide dedicar mais tempo à matemática 📚. Ele começa a se destacar nas Olimpíadas, mas percebe que está perdendo a chance de treinar para o vôlei. Ele também sente a falta de interações com Lara 👧. O que ele deve fazer?</p>
+            <button class="btn-proximo" data-proximo="67">Ajustar seu tempo para equilibrar matemática e vôlei</button>
+            <button class="btn-proximo" data-proximo="68">Focar totalmente em matemática</button>
+            <button class="btn-proximo" data-proximo="69">Tentar equilibrar matemática e interação com Lara</button>
+        </div>
+
+        <div class="passo" id="passo-23">
+            <p>Lucas 🧑 decide equilibrar estudo e treino. Ele começa a se destacar em ambas as áreas, mas sente-se mais cansado. Lara 👧 nota o esforço e se aproxima. No entanto, Lucas também percebe que não está dedicando tempo suficiente a um dos dois. Como ele deve lidar com isso?</p>
+            <button class="btn-proximo" data-proximo="70">Pedir ajuda para gerenciar seu tempo</button>
+            <button class="btn-proximo" data-proximo="71">Focar mais em uma área específica</button>
+            <button class="btn-proximo" data-proximo="72">Tentar melhorar seu equilíbrio entre estudo e treino</button>
+        </div>
+
+        <div class="passo" id="passo-24">
+            <p>Lucas 🧑 decide focar no vôlei 🏐. Ele se destaca na equipe, mas não consegue acompanhar o ritmo das Olimpíadas de Matemática 📚 e acaba se afastando de Lara 👧. Como ele deve reagir?</p>
+            <button class="btn-proximo" data-proximo="73">Tentar melhorar seu desempenho acadêmico</button>
+            <button class="btn-proximo" data-proximo="74">Reconquistar Lara</button>
+            <button class="btn-proximo" data-proximo="75">Concentrar-se completamente no vôlei</button>
+        </div>
+
+        <div class="passo" id="passo-25">
+            <p>Lucas 🧑 tenta reconectar com Lara 👧. Ele a convida para um evento escolar, mas ela está ocupada com suas atividades. Lucas decide então concentrar-se em melhorar suas habilidades no vôlei 🏐. O que ele deve fazer?</p>
+            <button class="btn-proximo" data-proximo="76">Focar na melhora contínua no vôlei</button>
+            <button class="btn-proximo" data-proximo="77">Tentar manter contato com Lara</button>
+            <button class="btn-proximo" data-proximo="78">Considerar um novo plano de ação para equilibrar tudo</button>
+        </div>
+
+        <div class="passo" id="passo-26">
+            <p>Lucas 🧑 foca intensamente no vôlei 🏐. Ele se destaca no time, mas Lara 👧 se afasta devido à falta de interação. Lucas sente falta de seu relacionamento com Lara e do tempo para estudar. O que ele deve fazer?</p>
+            <button class="btn-proximo" data-proximo="79">Tentar equilibrar treino e tempo com Lara</button>
+            <button class="btn-proximo" data-proximo="80">Focar apenas no vôlei e aceitar a situação</button>
+            <button class="btn-proximo" data-proximo="81">Procurar maneiras de retomar o contato com Lara e melhorar seus estudos</button>
+        </div>
+
+        <div class="passo" id="passo-27">
+            <p>Lucas 🧑 decide retomar seus estudos 📚 e reconsidera a orientação da Professora Jaque 👩🏾. Ele percebe que pode equilibrar estudos e vôlei, mas continua tendo dificuldades em se conectar com Lara 👧. O que ele deve fazer?</p>
+            <button class="btn-proximo" data-proximo="82">Focar em melhorar suas notas e desempenho no vôlei</button>
+            <button class="btn-proximo" data-proximo="83">Tentar reconquistar Lara e se esforçar em ambos</button>
+            <button class="btn-proximo" data-proximo="84">Concentrar-se em um objetivo e aceitar as consequências</button>
+        </div>
+
+        <div class="passo" id="passo-28">
+            <p>Lucas 🧑 continua seguindo o plano da Professora Jaque 👩🏾. Ele se destaca em matemática 📚 e também participa de treinos de vôlei 🏐. No entanto, Lara 👧 começa a se afastar. Como ele deve lidar com essa situação?</p>
+            <button class="btn-proximo" data-proximo="85">Tentar equilibrar melhor seu tempo</button>
+            <button class="btn-proximo" data-proximo="86">Concentrar-se mais em manter o relacionamento com Lara</button>
+            <button class="btn-proximo" data-proximo="87">Focar completamente em suas habilidades acadêmicas e esportivas</button>
+        </div>
+
+        <div class="passo" id="passo-29">
+            <p>Lucas 🧑 ajusta o plano para focar mais nos estudos. Ele começa a se destacar nas Olimpíadas de Matemática 📚, mas isso afeta sua performance no vôlei 🏐. Lara 👧 também nota a diferença e começa a se distanciar. O que ele deve fazer?</p>
+            <button class="btn-proximo" data-proximo="88">Tentar melhorar no vôlei e manter suas notas</button>
+            <button class="btn-proximo" data-proximo="89">Focar totalmente em matemática e aceitar as consequências no vôlei</button>
+            <button class="btn-proximo" data-proximo="90">Buscar um equilíbrio melhor entre os dois</button>
+        </div>
+
+        <div class="passo" id="passo-30">
+            <p>Lucas 🧑 decide focar mais no treino de vôlei 🏐. Ele melhora bastante e ganha reconhecimento, mas Lara 👧 e suas notas em matemática 📚 começam a sofrer. O que ele deve fazer agora?</p>
+            <button class="btn-proximo" data-proximo="91">Tentar equilibrar sua dedicação entre vôlei e estudos</button>
+            <button class="btn-proximo" data-proximo="92">Concentrar-se em reconquistar Lara</button>
+            <button class="btn-proximo" data-proximo="93">Reavaliar seus objetivos e prioridades</button>
+        </div>
+
+        <div class="passo" id="passo-31">
+            <p>Lucas 🧑 aceita o convite de Lara 👧 para um encontro. Eles se divertem e ela começa a se interessar mais por ele. Lucas também se dedica ao treino de vôlei 🏐 e participa bem das Olimpíadas de Matemática 📚. Ele tem sucesso em todas as suas metas. Parabéns, Lucas!</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-32">
+            <p>Lucas 🧑 decide focar no treino de vôlei 🏐. Ele melhora e se destaca, mas perde a oportunidade de impressionar a Professora Jaque e acaba se distanciando de Lara 👧. Ele participa das Olimpíadas de Matemática 📚, mas não se sai tão bem quanto poderia. O que Lucas deve fazer?</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-33">
+            <p>Lucas 🧑 tenta equilibrar o encontro com Lara 👧 e o treino de vôlei 🏐. Embora consiga manter ambos, ele não se destaca em nenhum deles como esperava. Ele aprende a importância de priorizar e gerenciar seu tempo melhor.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-34">
+            <p>Lucas 🧑 decide convidar Lara 👧 para um estudo em grupo. Eles se aproximam mais e ele começa a se destacar nas Olimpíadas de Matemática 📚, mas perde parte do tempo dedicado ao vôlei 🏐. Ele alcança sucesso acadêmico, mas precisa trabalhar em seu equilíbrio.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-35">
+            <p>Lucas 🧑 se concentra apenas em matemática 📚. Ele se destaca nas Olimpíadas e conquista o respeito da Professora Jaque 👩🏾, mas perde o contato com Lara 👧 e não se destaca no vôlei 🏐. Ele precisa reconsiderar seu foco e como balancear suas metas.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-36">
+            <p>Lucas 🧑 tenta marcar um encontro com Lara 👧 fora da escola. Eles se conectam melhor, mas ele continua tendo dificuldades em manter seu desempenho tanto nos estudos quanto no vôlei 🏐. Ele aprende a importância de equilibrar prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-37">
+            <p>Lucas 🧑 decide concentrar-se em um dos dois eventos. Ele escolhe o vôlei 🏐 e melhora consideravelmente, mas perde a oportunidade de impressionar na matemática 📚 e de manter o contato com Lara 👧. Ele precisa avaliar se essa escolha valeu a pena.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-38">
+            <p>Lucas 🧑 pede ajuda para gerenciar seu tempo. Ele tenta equilibrar seus compromissos, mas ainda enfrenta dificuldades. Seu desempenho no vôlei 🏐 e nas Olimpíadas de Matemática 📚 melhora, mas seu relacionamento com Lara 👧 é instável.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-39">
+            <p>Lucas 🧑 decide desistir de uma das atividades para reduzir o estresse. Ele escolhe focar no vôlei 🏐 e perde o ritmo acadêmico e o contato com Lara 👧. Ele precisa refletir sobre suas escolhas e se seus objetivos estão alinhados.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-40">
+            <p>Lucas 🧑 decide equilibrar estudo e treino. Ele se destaca em ambas as áreas, mas sente-se cansado. Lara 👧 percebe seu esforço e se aproxima mais, e Lucas continua a se sair bem nas Olimpíadas e no vôlei. Ele aprende a importância do equilíbrio.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-41">
+            <p>Lucas 🧑 decide priorizar o projeto de estudo com Lara 👧. Eles se conectam bem, mas ele perde algum tempo com o vôlei 🏐. Lucas vê sucesso acadêmico, mas precisa refletir sobre a importância de balancear seus interesses.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-42">
+            <p>Lucas 🧑 tenta impressionar Lara 👧 em outro contexto, fora da escola. Eles se aproximam mais, mas ele continua a enfrentar dificuldades em se destacar nas Olimpíadas de Matemática 📚 e no vôlei 🏐. Lucas aprende a importância de foco e equilíbrio.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-43">
+            <p>Lucas 🧑 organiza um encontro para conversar com Lara 👧. Eles têm uma conversa significativa e se reconectam, mas Lucas percebe que precisa melhorar sua performance no vôlei 🏐. Ele tenta equilibrar seus interesses e retoma o foco nas Olimpíadas de Matemática 📚.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-44">
+            <p>Lucas 🧑 tenta mostrar seu progresso no vôlei 🏐 para Lara 👧. Ele se destaca na equipe, mas Lara não se impressiona tanto quanto Lucas esperava. Ele percebe que precisa equilibrar seu foco entre o vôlei e os estudos 📚.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-45">
+            <p>Lucas 🧑 decide focar em outro aspecto da vida escolar. Ele melhora em várias áreas, mas Lara 👧 e suas Olimpíadas de Matemática 📚 não avançam como esperado. Ele aprende que o equilíbrio é essencial para atingir suas metas.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-46">
+            <p>Lucas 🧑 participa do desafio de matemática 📚. Ele se destaca e impressiona Lara 👧, mas sua performance no vôlei 🏐 diminui. Ele precisa avaliar a importância de equilibrar suas duas paixões e manter seu foco nas duas áreas.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-47">
+            <p>Lucas 🧑 foca no treinamento de vôlei 🏐. Ele melhora significativamente e impressiona a técnica Vanessa 👩‍🦰. No entanto, ele não se destaca nas Olimpíadas de Matemática 📚 e Lara 👧 se afasta devido à falta de interação. Ele aprende sobre a importância do equilíbrio.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-48">
+            <p>Lucas 🧑 convida Lara 👧 para um evento fora da escola. Eles se conectam, mas ele percebe que precisa de um melhor equilíbrio entre suas atividades acadêmicas e esportivas. Ele aprende a necessidade de administrar bem seu tempo.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-49">
+            <p>Lucas 🧑 decide focar em reconectar com Lara 👧. Ele tenta melhorar sua interação com ela, mas sua performance no vôlei 🏐 não melhora tanto quanto poderia. Ele precisa encontrar um equilíbrio entre suas relações e seu desempenho esportivo.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-50">
+            <p>Lucas 🧑 concentra-se em suas habilidades de vôlei 🏐. Ele melhora consideravelmente, mas acaba se distanciando de Lara 👧. Ele precisa refletir se o foco apenas no esporte é o melhor caminho para alcançar suas metas.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-51">
+            <p>Lucas 🧑 tenta equilibrar sua dedicação entre vôlei 🏐 e estudos 📚. Embora consiga em parte, ele continua a sentir-se cansado e a luta para manter um bom desempenho em ambos. Ele precisa buscar um melhor equilíbrio.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-52">
+            <p>Lucas 🧑 decide retomar o contato com Lara 👧. Ele tenta se reconectar, mas continua se dedicando intensamente às aulas particulares de vôlei 🏐. Ele precisa considerar se pode equilibrar suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-53">
+            <p>Lucas 🧑 decide focar totalmente no vôlei 🏐. Ele melhora bastante e conquista sucesso na equipe, mas sente falta de interações com Lara 👧 e do tempo para estudar. Ele precisa reavaliar seu foco e equilibrar melhor suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-54">
+            <p>Lucas 🧑 considera fazer uma pausa nas aulas de vôlei 🏐. Ele busca retomar o contato com Lara 👧 e melhorar seus estudos 📚. Ele tenta equilibrar suas prioridades, mas ainda enfrenta desafios.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-55">
+            <p>Lucas 🧑 ajusta seu plano de estudos e treino. Ele tenta melhorar seu equilíbrio, mas continua a sentir-se cansado. Sua performance nas Olimpíadas de Matemática 📚 e no vôlei 🏐 sofre. Ele precisa encontrar uma forma mais eficiente de balancear suas atividades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-56">
+            <p>Lucas 🧑 decide focar em um dos dois. Ele escolhe o vôlei 🏐 e se destaca, mas suas notas e relacionamento com Lara 👧 são afetados. Ele aprende a importância de avaliar e equilibrar seus objetivos.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-57">
+            <p>Lucas 🧑 pede ajuda para gerenciar seu tempo. Ele consegue melhorar um pouco seu equilíbrio, mas ainda enfrenta desafios para manter um bom desempenho em ambas as áreas. Ele precisa continuar ajustando sua abordagem.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-58">
+            <p>Lucas 🧑 decide convidar Lara 👧 para um encontro após o jogo. Eles passam um bom tempo juntos, e Lara fica impressionada com sua dedicação no vôlei. Lucas continua a se sair bem em ambas as áreas, aprendendo a equilibrar suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-59">
+            <p>Lucas 🧑 agradece a Lara 👧 pela presença e decide focar no vôlei 🏐. Ele se destaca no time, mas suas notas e relacionamento com Lara são impactados. Ele precisa reavaliar sua abordagem e equilibrar seus objetivos.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-60">
+            <p>Lucas 🧑 tenta equilibrar o relacionamento com Lara 👧 e seus treinos de vôlei 🏐. Ele aprende a importância de balancear suas prioridades e começa a ter sucesso em ambas as áreas.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-61">
+            <p>Lucas 🧑 tenta reconectar com Lara 👧. Ele a convida para um evento, mas ela está ocupada. Lucas decide focar em seus estudos 📚 e se destaca academicamente. Ele precisa reconsiderar a importância de manter o equilíbrio entre estudo e relacionamento.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-62">
+            <p>Lucas 🧑 se concentra em melhorar sua performance no vôlei 🏐 e nas Olimpíadas de Matemática 📚. Embora ele tenha sucesso em ambas, Lara 👧 se afasta devido à falta de interação. Ele aprende a importância de equilibrar todas as áreas da vida.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-63">
+            <p>Lucas 🧑 tenta equilibrar o treino de vôlei 🏐 e suas interações com Lara 👧. Ele vê alguma melhoria, mas ainda enfrenta dificuldades em manter o equilíbrio. Ele precisa continuar ajustando suas prioridades e seu foco.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-64">
+            <p>Lucas 🧑 se dedica intensamente às Olimpíadas de Matemática 📚. Ele melhora significativamente e conquista o respeito da Professora Jaque 👩🏾, mas seu relacionamento com Lara 👧 e seu desempenho no vôlei 🏐 são afetados.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-65">
+            <p>Lucas 🧑 tenta equilibrar suas prioridades entre o vôlei 🏐 e as Olimpíadas de Matemática 📚. Embora veja algum sucesso, ele continua a sentir-se cansado e precisa encontrar um melhor equilíbrio.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-66">
+            <p>Lucas 🧑 decide focar em melhorar seu desempenho no vôlei 🏐. Ele se destaca e ganha reconhecimento, mas suas notas em matemática 📚 e seu relacionamento com Lara 👧 sofrem. Ele precisa refletir sobre o equilíbrio entre suas metas.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-67">
+            <p>Lucas 🧑 tenta equilibrar seu tempo entre treino de vôlei 🏐 e estudos 📚. Ele vê alguma melhoria, mas continua a enfrentar dificuldades para manter um bom desempenho em ambas as áreas.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-68">
+            <p>Lucas 🧑 decide se concentrar no vôlei 🏐. Ele se destaca, mas Lara 👧 e seus estudos 📚 são afetados. Ele precisa considerar a importância de manter o equilíbrio e avaliar suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-69">
+            <p>Lucas 🧑 decide focar em manter suas notas em matemática 📚 e em reconectar com Lara 👧. Ele se afasta do vôlei 🏐, mas vê algum sucesso acadêmico e melhora no relacionamento.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-70">
+            <p>Lucas 🧑 tenta melhorar seu equilíbrio entre vôlei 🏐 e estudos 📚. Ele encontra algum sucesso, mas continua a sentir-se cansado. Ele precisa considerar a importância de administrar seu tempo de forma mais eficiente.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-71">
+            <p>Lucas 🧑 decide buscar ajuda para gerenciar seu tempo. Ele vê alguma melhoria em seu equilíbrio entre estudo e vôlei 🏐, mas ainda enfrenta desafios. Ele precisa continuar ajustando sua abordagem.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-72">
+            <p>Lucas 🧑 decide continuar focado no vôlei 🏐. Ele melhora e ganha reconhecimento, mas seu desempenho em matemática 📚 e seu relacionamento com Lara 👧 não avançam como esperado. Ele aprende sobre a importância de avaliar e equilibrar suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-73">
+            <p>Lucas 🧑 tenta melhorar seu desempenho acadêmico 📚. Ele começa a ver progresso, mas continua tendo dificuldades em manter um bom desempenho no vôlei 🏐 e em manter contato com Lara 👧. Ele aprende a importância de balancear suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-74">
+            <p>Lucas 🧑 decide reconquistar Lara 👧. Ele se dedica a melhorar seu relacionamento, mas continua enfrentando dificuldades em manter o desempenho acadêmico e no vôlei 🏐. Ele precisa encontrar um equilíbrio entre suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-75">
+            <p>Lucas 🧑 decide se concentrar completamente no vôlei 🏐. Ele se destaca e ganha reconhecimento, mas seu desempenho acadêmico 📚 e seu relacionamento com Lara 👧 sofrem. Ele precisa avaliar se sua escolha de foco foi a mais adequada.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-76">
+            <p>Lucas 🧑 decide focar em melhorar continuamente no vôlei 🏐. Ele se destaca na equipe, mas Lara 👧 continua ocupada e ele ainda enfrenta desafios para manter um bom desempenho acadêmico 📚. Ele aprende a importância de equilibrar suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-77">
+            <p>Lucas 🧑 tenta manter contato com Lara 👧. Ele a convida para atividades, mas ela está ocupada com seus próprios compromissos. Lucas decide então se concentrar em melhorar suas habilidades no vôlei 🏐. Ele precisa continuar ajustando seu equilíbrio.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-78">
+            <p>Lucas 🧑 considera um novo plano de ação para equilibrar estudo e treino. Ele tenta implementar um novo cronograma, mas continua enfrentando dificuldades. Seu desempenho em ambas as áreas melhora, mas ele precisa de um equilíbrio mais eficaz.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-79">
+            <p>Lucas 🧑 tenta equilibrar o tempo entre o treino e os estudos 📚. Ele melhora em ambas as áreas, mas continua a sentir-se cansado e precisa encontrar uma forma mais eficiente de administrar seu tempo.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-80">
+            <p>Lucas 🧑 decide focar apenas no vôlei 🏐. Ele melhora e ganha reconhecimento, mas sua performance acadêmica 📚 e seu relacionamento com Lara 👧 sofrem. Ele precisa refletir sobre se esse foco é o melhor para alcançar suas metas.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-81">
+            <p>Lucas 🧑 procura maneiras de retomar o contato com Lara 👧 e melhorar seus estudos 📚. Ele faz progressos em ambas as áreas, mas ainda enfrenta desafios para equilibrar tudo. Ele aprende a importância de gerenciar suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-82">
+            <p>Lucas 🧑 foca em melhorar suas notas 📚 e desempenho no vôlei 🏐. Ele começa a ver progresso em ambas as áreas, mas ainda enfrenta desafios em manter o equilíbrio. Ele precisa ajustar seu plano para alcançar sucesso completo.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-83">
+            <p>Lucas 🧑 tenta reconquistar Lara 👧 e se esforça em ambas as áreas. Ele vê alguma melhoria, mas continua a enfrentar desafios para manter um bom desempenho acadêmico e no vôlei. Ele aprende sobre a importância de equilibrar todas as suas metas.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-84">
+            <p>Lucas 🧑 decide concentrar-se em suas habilidades acadêmicas 📚. Ele se destaca nas Olimpíadas de Matemática, mas sua performance no vôlei 🏐 e seu relacionamento com Lara 👧 são impactados. Ele precisa avaliar se sua escolha foi a melhor.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-85">
+            <p>Lucas 🧑 tenta equilibrar todas as suas atividades. Ele vê alguma melhoria no desempenho acadêmico e no vôlei 🏐, mas ainda enfrenta dificuldades para manter um equilíbrio perfeito. Ele aprende a importância de ajustar continuamente suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-86">
+            <p>Lucas 🧑 decide buscar orientação adicional para gerenciar seu tempo e equilibrar suas prioridades. Ele começa a ver melhorias, mas ainda enfrenta desafios. Ele continua a trabalhar em seu equilíbrio e a refletir sobre suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-87">
+            <p>Lucas 🧑 tenta melhorar sua interação com Lara 👧 e se dedica ao vôlei 🏐. Ele vê algum sucesso em ambas as áreas, mas continua enfrentando dificuldades. Ele precisa encontrar uma abordagem mais equilibrada.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-88">
+            <p>Lucas 🧑 decide focar em melhorar suas habilidades acadêmicas 📚. Ele se destaca nas Olimpíadas de Matemática, mas sua performance no vôlei 🏐 e seu relacionamento com Lara 👧 sofrem. Ele aprende sobre a importância de equilibrar todas as suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-89">
+            <p>Lucas 🧑 busca melhorar seu desempenho no vôlei 🏐 e nas Olimpíadas de Matemática 📚. Ele começa a ver algum progresso em ambas as áreas, mas ainda enfrenta desafios para manter o equilíbrio perfeito. Ele precisa continuar ajustando seu plano.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-90">
+            <p>Lucas 🧑 decide investir mais tempo no vôlei 🏐 e menos nos estudos 📚. Ele se destaca na equipe, mas seu desempenho acadêmico e relacionamento com Lara 👧 são afetados. Ele precisa refletir sobre se essa abordagem é a melhor para alcançar suas metas.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-91">
+            <p>Lucas 🧑 tenta melhorar seu desempenho em ambas as áreas. Ele começa a ver algum progresso, mas continua a sentir-se cansado e precisa encontrar uma abordagem mais equilibrada. Ele aprende sobre a importância de ajustar continuamente suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-92">
+            <p>Lucas 🧑 decide buscar orientação para gerenciar seu tempo e equilibrar seus interesses. Ele começa a ver alguma melhoria, mas ainda enfrenta desafios. Ele precisa continuar ajustando seu plano e refletir sobre suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-93">
+            <p>Lucas 🧑 foca em manter um equilíbrio entre suas atividades acadêmicas 📚 e no vôlei 🏐. Ele vê algum progresso em ambas as áreas, mas continua a enfrentar dificuldades para manter o equilíbrio perfeito. Ele precisa continuar ajustando suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-94">
+            <p>Lucas 🧑 tenta equilibrar suas prioridades entre vôlei 🏐 e estudos 📚. Ele começa a ver algum sucesso, mas ainda enfrenta desafios para manter um equilíbrio ideal. Ele aprende a importância de ajustar continuamente seu plano.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-95">
+            <p>Lucas 🧑 decide focar em suas habilidades acadêmicas 📚 e melhorar seu relacionamento com Lara 👧. Ele se afasta um pouco do vôlei 🏐, mas vê sucesso nas Olimpíadas de Matemática e na reconciliação com Lara. Ele aprende sobre a importância de equilibrar todas as áreas da vida.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-96">
+            <p>Lucas 🧑 decide se concentrar mais no vôlei 🏐 e tenta reconquistar Lara 👧. Ele melhora no esporte, mas ainda enfrenta dificuldades em manter seu desempenho acadêmico 📚. Ele aprende sobre a importância de avaliar e equilibrar suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-97">
+            <p>Lucas 🧑 tenta encontrar um novo equilíbrio entre suas atividades. Ele vê algumas melhorias em ambas as áreas, mas continua enfrentando desafios para manter o equilíbrio perfeito. Ele aprende sobre a importância de ajustar continuamente suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-98">
+            <p>Lucas 🧑 decide focar em melhorar suas notas 📚 e também dedicar tempo para Lara 👧. Ele começa a ver progresso acadêmico e na relação, mas ainda precisa encontrar um equilíbrio ideal com o vôlei 🏐. Ele aprende a importância de equilibrar suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-99">
+            <p>Lucas 🧑 decide investir mais tempo em suas atividades acadêmicas 📚. Ele melhora nas Olimpíadas de Matemática, mas sua performance no vôlei 🏐 e seu relacionamento com Lara 👧 são afetados. Ele precisa refletir sobre se essa abordagem é a melhor para alcançar suas metas.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+
+        <div class="passo" id="passo-100">
+            <p>Lucas 🧑 tenta melhorar seu desempenho em todas as áreas. Ele vê algum sucesso em suas atividades acadêmicas 📚 e no vôlei 🏐, e também melhora seu relacionamento com Lara 👧. Ele aprende a importância de equilibrar todas as suas prioridades.</p>
+            <button class="btn-reiniciar">Reiniciar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
